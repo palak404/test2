@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>javascript tutorial</title>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
+         <script>
+             $(document).ready(function(){
+                $("#btn2").click(function(){
+                        $("div").slideDown("slow");
+                });
+                $("#btn").click(function(){
+                        $("div").slideUp("slow");
+                });
+                $("#btn3").click(function(){
+                        $("div").slideToggle();
+                });
+                });
+        
+         </script> 
+            
+           
+        </script>
+    </head>
+    <body>
+        <div style="width:30%;height:50%;background-color:coral">This is div 1</div>
+        <button id="btn">slideUp</button>
+        <button id="btn2">slideDown</button>
+         <button id="btn3">slideToggle</button>
+    </body>
+   
+</html>
